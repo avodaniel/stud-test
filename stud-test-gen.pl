@@ -1,5 +1,5 @@
 
-for my $x(0..99) {
+for my $x(0..999) {
     my $port = 8443 + $x;
 print <<END;
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
